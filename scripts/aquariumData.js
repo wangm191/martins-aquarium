@@ -14,7 +14,7 @@ export const database = {
             length: 5,
             location: "Great Barrier Reef",
             diet: "Omnivore",
-            image: "./images/Dory.jpg"
+            image: "./images/Dory.webp"
         },
         {
             name: "Sheldon",
@@ -27,7 +27,7 @@ export const database = {
         {
             name: "Mr.Ray",
             species: "Spotted Eagle Ray",
-            length: 50,
+            length: 30,
             location: "Great Barrier Reef",
             diet: "Omnivore",
             image: "./images/MrRay.webp"
@@ -43,7 +43,7 @@ export const database = {
         {
             name: "Bloat",
             species: "Pufferfish",
-            length: 10,
+            length: 11,
             location: "Tropical Ocean Regions",
             diet: "Omnivore",
             image: "./images/Bloat.webp"
@@ -51,11 +51,35 @@ export const database = {
         {
             name: "Crush",
             species: "Sea Turtle",
-            length: 15,
+            length: 18,
             location: "Tropical Ocean Regions",
             diet: "Omnivore",
             image: "./images/Crush.jpg"
         },
+        {
+            name: "Bruce",
+            species: "Great White Shark",
+            length: 50,
+            location: "Coastal Waters",
+            diet: "Omnivore",
+            image: "./images/Bruce.webp"
+        },
+        {
+            name: "Gurgle",
+            species: "Royal Gramma",
+            length: 2,
+            location: "Great Barrier Reef",
+            diet: "Omnivore",
+            image: "./images/Gurgle.webp"
+        },
+        {
+            name: "Peach",
+            species: "Starfish",
+            length: 3,
+            location: "Coastal Waters",
+            diet: "Omnivore",
+            image: "./images/Starfish.webp"
+        }
     ], 
     tips: [
         {
@@ -91,5 +115,11 @@ export const database = {
             country: "Equatorial Band", 
             description: "Tropical Ocean Regions surrond the entire world are considered to be on the Equatorial Band, between the Tropic of Cancer (23.5° North latitude) and the Tropic of Capricorn (23.5° South latitude)."
         },
+        {
+            name: "Coastal Waters",
+            country: "Worldwide", 
+            description: "Coastal Waters surrond the entire world, and are places where often near land where seals and other marine mammals come ashore."
+        },
+
     ]
 }
