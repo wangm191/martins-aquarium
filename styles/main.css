@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;  /* Left section takes 2 parts, right section takes 1 part */
+    gap: 20px;  /* Space between the columns */
+    padding: 20px;
+}
+
+.fishes {
+    flex-basis: 400px;
+    flex-grow: 1;
+    max-width: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.fishes:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.fish__image {
+    min-width: 15rem;
+    min-height: 15rem;
+    max-width: 15rem;
+    max-height: 15rem;
+}
+
+.fish__details{
+    padding: 20px;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.5;
+}
+
+.fish__name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.tips {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tip__topic {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.tip__text {
+    padding: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666666;
+    line-height: 1.5;
+}
+
+.locations {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666666;
+}
+
+.location__name {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+
